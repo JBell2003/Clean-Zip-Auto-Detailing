@@ -1,71 +1,77 @@
-# Clean Zip Auto Detailing Website
+# Kenco Construction Website
 
-A modern, responsive website for Clean Zip Auto Detailing, showcasing their auto detailing and repair services in Richmond Hill, Ontario.
+A modern, responsive website for Kenco Construction, showcasing their construction and home building services in Uxbridge, Ontario.
 
 ## Features
 
 - Responsive design that works on all devices
-- Modern and clean user interface
+- Modern light theme with professional blue accents
 - Smooth scrolling navigation
-- Mobile-friendly menu
-- Integrated Google Maps
-- Contact form using Google Forms
-- SEO-optimized content
-- Animated sections
-- Fast loading performance
+- Mobile-friendly hamburger menu
+- Contact form with form validation
+- Interactive service cards
+- Google Maps integration
+- SEO optimized with relevant keywords
 
 ## File Structure
 
 ```
-cleanzipauto/
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
+├── index.html          # Main HTML file
+├── styles.css         # CSS styles
+├── script.js         # JavaScript functionality
+├── images/           # Image assets
+│   ├── construction-hero.jpg
+│   └── about-construction.jpg
 ```
 
-## How to Run
+## Setup Instructions
 
-1. Clone or download this repository to your local machine
-2. Open the `index.html` file in a modern web browser
-3. That's it! The website should load and be fully functional
+1. Replace the placeholder images:
+   - Add your hero image as `construction-hero.jpg`
+   - Add your about section image as `about-construction.jpg`
 
-## Technologies Used
+2. Update the contact information:
+   - Replace `[Your Phone Number]` in the HTML with your actual phone number
+   - Update the email address if needed
+   - Verify the Google Maps embed code points to your correct location
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Font Awesome Icons
-- Google Maps API
-- Google Forms
+3. Customize content:
+   - Update the text content to match your specific services and company information
+   - Add or modify service cards as needed
+   - Adjust the color scheme in `styles.css` if desired
 
-## Browser Support
+## SEO Keywords
 
-The website is compatible with:
-- Google Chrome (latest)
-- Mozilla Firefox (latest)
-- Safari (latest)
-- Microsoft Edge (latest)
-- Opera (latest)
+The website is optimized for the following keywords:
+- uxbridge construction
+- uxbridge new construction
+- new homes near uxbridge
+- new build homes near uxbridge
+- uxbridge new home builders
+
+## Browser Compatibility
+
+The website is tested and works on:
+- Google Chrome
+- Mozilla Firefox
+- Safari
+- Microsoft Edge
+- Mobile browsers
+
+## Contact Form
+
+The contact form currently logs submissions to the console. To make it functional:
+1. Set up a server to handle form submissions
+2. Update the form submission code in `script.js`
+3. Add proper error handling and success messages
 
 ## Development
 
 To make changes to the website:
-
-1. Edit the HTML content in `index.html`
+1. Edit the HTML in `index.html`
 2. Modify styles in `styles.css`
-3. Update JavaScript functionality in `script.js`
+3. Update functionality in `script.js`
 
-## SEO Optimization
+## License
 
-The website includes:
-- Meta descriptions
-- Semantic HTML structure
-- Optimized headings
-- Alt text for images
-- Mobile responsiveness
-- Fast loading times
-
-## Contact
-
-For any questions or support, please contact Clean Zip Auto Detailing directly through the contact form on the website. 
+All rights reserved © 2024 Kenco Construction 
